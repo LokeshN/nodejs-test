@@ -1,0 +1,7 @@
+language: node_js
+node_js: 
+  - "13"
+install: 
+  - npm install
+script: 3
+  - PORT=0 npm test
